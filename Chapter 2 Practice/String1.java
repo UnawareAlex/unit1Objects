@@ -6,6 +6,10 @@ public class String1
         int n = greeting.length();
         
         System.out.println("length = " + n);
+        
+        String river  = "Mississippi";
+        String bigRiver = river.toUpperCase();
+        System.out.println("river: " + river + " bigRiver: " + bigRiver);
     }
 }
         
