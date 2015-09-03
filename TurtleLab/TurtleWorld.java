@@ -57,12 +57,32 @@ public class TurtleWorld
         lewa.forward(60);
         
         lewa.penUp();           ///MAKING LETTER O
-        lewa.
+        lewa.forward(30);
+        lewa.penDown();
+        lewa.turn(90);
+        lewa.forward(80);
+        lewa.turn(-90);
+        lewa.forward(40);
+        lewa.turn(-90);
+        lewa.forward(80);
+        lewa.turn(-90);
+        lewa.forward(40);
+        lewa.turn(180);
+        lewa.forward(40);
         
-        
-        
-        
-        
+        lewa.penUp();            //MAKING LETTER P
+        lewa.forward(30);
+        lewa.penDown();
+        lewa.forward(40);
+        lewa.turn(90);
+        lewa.forward(40);
+        lewa.turn(90);
+        lewa.forward(40);
+        lewa.turn(90);
+        lewa.forward(40);
+        lewa.turn(180);
+        lewa.forward(80);
+        lewa.hide();
         
         int re = 0;
         int fill = 0;
